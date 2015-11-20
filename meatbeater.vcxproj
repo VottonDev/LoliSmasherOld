@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C58CBA05-9E0D-428C-90CC-AB74984FEE84}</ProjectGuid>
+    <RootNamespace>meatbeater</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\hl2sdk-gmod\game\server;C:\hl2sdk-gmod\game\client;C:\hl2sdk-gmod\game\shared;C:\hl2sdk-gmod\public\tier3;C:\hl2sdk-gmod\public\tier2;C:\hl2sdk-gmod\public\tier1;C:\hl2sdk-gmod\public\tier0;C:\hl2sdk-gmod\public;C:\hl2sdk-gmod\common;C:\hl2sdk-gmod;$(IncludePath)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\hl2sdk-gmod\lib\public;$(LibraryPath)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Intel\Composer XE 2015\compiler\include;C:\hl2sdk-gmod\game\server;C:\hl2sdk-gmod\game\client;C:\hl2sdk-gmod\game\shared;C:\hl2sdk-gmod\public\tier3;C:\hl2sdk-gmod\public\tier2;C:\hl2sdk-gmod\public\tier1;C:\hl2sdk-gmod\public\tier0;C:\hl2sdk-gmod\public;C:\hl2sdk-gmod\common;C:\hl2sdk-gmod;$(IncludePath)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\hl2sdk-gmod\lib\public;$(LibraryPath)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aimbot.h" />
+    <ClInclude Include="baseentity.h" />
+    <ClInclude Include="cliententlist.h" />
+    <ClInclude Include="console.h" />
+    <ClInclude Include="createmove.h" />
+    <ClInclude Include="cengine.h" />
+    <ClInclude Include="customccvar.h" />
+    <ClInclude Include="hooks.h" />
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="menu\elements\baseobject.h" />
+    <ClInclude Include="menu\elements\checkbox.h" />
+    <ClInclude Include="menu\elements\colorpicker.h" />
+    <ClInclude Include="menu\elements\combobox.h" />
+    <ClInclude Include="menu\elements\form.h" />
+    <ClInclude Include="menu\elements\slider.h" />
+    <ClInclude Include="menu\elements\tabs.h" />
+    <ClInclude Include="menu\elements\window.h" />
+    <ClInclude Include="menu\inputsystem.h" />
+    <ClInclude Include="menu\menu.h" />
+    <ClInclude Include="menu\setup.h" />
+    <ClInclude Include="misc.h" />
+    <ClInclude Include="netvarsgreat.h" />
+    <ClInclude Include="nospread.h" />
+    <ClInclude Include="painttraverse.h" />
+    <ClInclude Include="sdk.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="variables.h" />
+    <ClInclude Include="visuals.h" />
+    <ClInclude Include="vmt.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

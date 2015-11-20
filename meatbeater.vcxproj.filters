@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\interfaces">
+      <UniqueIdentifier>{2fd1c534-f9d9-455a-b51a-72071dfe94ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\console">
+      <UniqueIdentifier>{64300c9f-8967-4323-840a-3a7737ac2cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\vmt">
+      <UniqueIdentifier>{a7332b86-95a6-4443-9f7e-11e8dfeca8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hooks">
+      <UniqueIdentifier>{60f7d828-d22d-4c45-a3ea-45f4c88963ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\aimbot">
+      <UniqueIdentifier>{fa007180-5259-4f6e-90d3-727f0340c711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\visuals">
+      <UniqueIdentifier>{f95a2ec5-8ba4-49de-8d4d-9ad74b1ce8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\netvars">
+      <UniqueIdentifier>{d47b4f3b-8d0c-48d4-81b2-3db422d4d2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\nospread">
+      <UniqueIdentifier>{5e68aaaf-c31e-4212-8a71-595fad9f6c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LoliUI">
+      <UniqueIdentifier>{5f0bea4a-04a7-490f-9951-1e2446cf1c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LoliUI\elements">
+      <UniqueIdentifier>{2a507be3-2d44-47b1-bbc6-e35762cd4bfe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>Header Files\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Header Files\console</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>Header Files\vmt</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>Header Files\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="createmove.h">
+      <Filter>Header Files\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cliententlist.h">
+      <Filter>Header Files\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="cengine.h">
+      <Filter>Header Files\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Header Files\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Header Files\aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="painttraverse.h">
+      <Filter>Header Files\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.h">
+      <Filter>Header Files\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="customccvar.h">
+      <Filter>Header Files\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\inputsystem.h">
+      <Filter>Header Files\LoliUI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>Header Files\LoliUI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\setup.h">
+      <Filter>Header Files\LoliUI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\elements\baseobject.h">
+      <Filter>Header Files\LoliUI\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\elements\window.h">
+      <Filter>Header Files\LoliUI\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\elements\form.h">
+      <Filter>Header Files\LoliUI\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\elements\checkbox.h">
+      <Filter>Header Files\LoliUI\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\elements\combobox.h">
+      <Filter>Header Files\LoliUI\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\elements\slider.h">
+      <Filter>Header Files\LoliUI\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\elements\tabs.h">
+      <Filter>Header Files\LoliUI\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h">
+      <Filter>Header Files\console</Filter>
+    </ClInclude>
+    <ClInclude Include="baseentity.h">
+      <Filter>Header Files\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\elements\colorpicker.h">
+      <Filter>Header Files\LoliUI\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="nospread.h">
+      <Filter>Header Files\nospread</Filter>
+    </ClInclude>
+    <ClInclude Include="netvarsgreat.h">
+      <Filter>Header Files\netvars</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
