@@ -1,9 +1,5 @@
 # LoliSmasher
 
-Everyone who has access to this.
+Older version of LoliSmasher but has a better menu.
 
-Please help much as possible with the project.
-
-Put pull requests if you find anything wrong.
-
-Thank you.
+Gotta fix this shit.
