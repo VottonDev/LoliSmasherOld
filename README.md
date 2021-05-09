@@ -1,5 +1,5 @@
 # LoliSmasher
 
-Older version of LoliSmasher but has a better menu.
+Older version of LoliSmasher Cheat
 
-Gotta fix this shit.
+This is purely for educational purposes and this code is years old.
